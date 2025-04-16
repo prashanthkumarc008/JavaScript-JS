@@ -10,14 +10,20 @@ let createEmployee=(emp)=>{
 }
 
 let displayEmployees=()=>{
-    setTimeout(() => {
-        let rows=''
+    setTimeout(()=>{
+        let rows=""
         for(let employee of employees){
-            <td>${employee.eid}</td>
-            <tr>${employee.ename}</tr>
-            <tr>${employee.esal}</tr>
-
+            rows=rows+`<tr>
+                        <td>${employee.eid}</td>
+                        <td>${employee.ename}</td>
+                        <td>${employee.esal}</td>
+                     </tr>`
         }
-        document.getElementById(t_data).innerHTML="gm"
-    }, 1000);
+        document.getElementById('tData').innerHTML=rows
+        //document.getElementById('tData').innerHTML="GM"
+    },1000)
 }
+
+
+createEmployee({eid:103,ename:"Priyanka",esal:65000})
+displayEmployees()
