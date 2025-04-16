@@ -1,8 +1,6 @@
 let employees=[{eid:101,ename:'rahul',esal:45500},
                 {eid:102,ename:'modi',esal:25000},
-                {eid:103,ename:'ananda',esal:30000},
-
-                ]
+                {eid:103,ename:'ananda',esal:30000} ]
 let createEmployee=(emp)=>{
     setTimeout(() => {
         employees.push(emp)
