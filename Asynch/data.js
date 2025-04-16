@@ -21,7 +21,5 @@ let displayEmployees=()=>{
         //document.getElementById('tData').innerHTML="GM"
     },1000)
 }
-
-
 createEmployee({eid:103,ename:"Priyanka",esal:65000})
 displayEmployees()
