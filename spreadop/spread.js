@@ -6,7 +6,8 @@ let user={
 let details={
     city:"bangalore",
     email:"rrh@pj.com",
-    loc:"kerala"
+    loc:"kerala",
+    father_name:"ananda"
 }
 
 let user_detail={...user,...details}
