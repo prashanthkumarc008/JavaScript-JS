@@ -3,6 +3,6 @@ let new_arr = old_arr.filter((arr1)=>{
    
     return  arr1%2==0 ;
 })
-
+console.log(object);
 console.log(old_arr) 
 console.log(new_arr) //display even numbers
