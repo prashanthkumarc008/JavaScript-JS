@@ -1,3 +1,3 @@
-import tax from './gov.js';
+import {tax,discount} from './gov.js';
 console.log(tax);
-console.log(tax);
+console.log(discount);
