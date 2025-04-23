@@ -10,3 +10,4 @@ console.log(a+b)
 window.document.writeln(a+b)
 document.writeln(a+b)
 console.log(a*b);
+console.log(a-b);
